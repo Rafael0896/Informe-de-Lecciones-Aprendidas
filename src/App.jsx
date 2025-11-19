@@ -3,6 +3,7 @@ import React from "react";
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import BitacoraSection from "./components/BitacoraSection.jsx";
+import GoodPractices from "./components/GoodPractices.jsx";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <main role="main">
             <Introduction />
             <BitacoraSection />
+            <GoodPractices />
         </main>
       </div>
     </div>
