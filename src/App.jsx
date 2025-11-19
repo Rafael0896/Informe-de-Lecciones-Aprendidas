@@ -1,6 +1,7 @@
 // src/App.jsx
 import React from "react";
 import Header from './components/Header';
+import Introduction from './components/Introduction';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <div>
         <Header />
         <main role="main">
+            <Introduction />
         </main>
       </div>
     </div>

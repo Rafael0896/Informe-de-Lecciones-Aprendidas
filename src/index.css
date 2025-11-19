@@ -75,4 +75,77 @@ body {
     opacity: 0.95;
     font-weight: 300;
 }
-/* ===== MAIN CONTENT ===== */
+/* ===== MAIN ===== */
+main {
+    flex: 1;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    width: 100%;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    background: var(--bg-white);
+    border-radius: 12px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.section-content {
+    color: var(--text-light);
+}
+
+/* ===== INTRODUCTION ===== */
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.intro-paragraph {
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.standards-box {
+    background: var(--bg-light);
+    border-left: 4px solid var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.standards-title {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.standards-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.standards-list li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.standards-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
