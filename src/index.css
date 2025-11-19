@@ -149,3 +149,40 @@ main {
     color: var(--primary-color);
     font-weight: bold;
 }
+
+/* ===== BITACORA TABLE ===== */
+.table-container {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.bitacora-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.bitacora-table thead {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.bitacora-table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.bitacora-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.bitacora-table tbody tr:hover {
+    background: var(--bg-light);
+}
+
+.bitacora-table tbody tr:last-child td {
+    border-bottom: none;
+}
