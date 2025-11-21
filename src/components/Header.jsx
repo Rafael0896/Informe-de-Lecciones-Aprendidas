@@ -5,7 +5,7 @@ function Header() {
         <header className="header" role="banner">
             <div className="header-content">
                 <div className="logo">
-                    <span className="logo-text">SENA</span>
+                    <img src="https://i.postimg.cc/RZn5V8Jg/logo.png"/>
                 </div>
                 <div className="header-text">
                     <h1 className="main-title">Informe de Lecciones Aprendidas – Verificación del Software</h1>
