@@ -7,7 +7,6 @@ function Footer() {
                 <div className="footer-info">
                     <p><strong>Estudiante:</strong> Rafael Emiro Álvarez Angulo</p>
                     <p><strong>Ficha:</strong> 2885501</p>
-                    <p><strong>Actividad:</strong> GA11-220501098-AA1-EV04</p>
                     <p><strong>Fecha de entrega:</strong> Noviembre 2025</p>
                 </div>
                 <div className="footer-rights">
