@@ -225,6 +225,64 @@ main {
     gap: 1.5rem;
 }
 
+/* ===== SOCIALIZATION ===== */
+.socialization-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.socialization-card {
+    background: var(--bg-light);
+}
+
+.socialization-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.socialization-list li {
+    padding: 0.75rem 0;
+    padding-left: 1.8rem;
+    position: relative;
+    line-height: 1.6;
+}
+
+.socialization-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 1rem 1.5rem;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-info p,
+.footer-rights p {
+    margin: 0.5rem 0;
+}
+
+.footer-rights {
+    text-align: right;
+}
+
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
     .header-content {

@@ -4,6 +4,9 @@ import Header from './components/Header';
 import Introduction from './components/Introduction';
 import BitacoraSection from "./components/BitacoraSection.jsx";
 import GoodPractices from "./components/GoodPractices.jsx";
+import LessonsLearned from "./components/LessonsLearned.jsx";
+import Socialization from "./components/Socialization.jsx";
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -14,7 +17,10 @@ export default function App() {
             <Introduction />
             <BitacoraSection />
             <GoodPractices />
+            <LessonsLearned />
+            <Socialization />
         </main>
+          <Footer />
       </div>
     </div>
   );
