@@ -94,8 +94,7 @@ Informe_lecciones_aprendidas/
 
 1. **Clonar el repositorio**
 ```bash
-git clone [URL_DEL_REPOSITORIO]
-cd Informe_lecciones_aprendidas
+git clone [https://github.com/Rafael0896/Informe-de-Lecciones-Aprendidas]
 ```
 
 2. **Instalar dependencias**
