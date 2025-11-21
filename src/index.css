@@ -231,6 +231,17 @@ main {
     gap: 1.5rem;
 }
 
+/* ===== LESSONS ===== */
+.lessons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.lesson-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
 /* ===== SOCIALIZATION ===== */
 .socialization-content {
     display: flex;
