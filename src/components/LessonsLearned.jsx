@@ -47,7 +47,6 @@ function LessonsLearned() {
                 {lessons.map((lesson, index) => (
                     <Card
                         key={index}
-                        icon={lesson.icon}
                         title={lesson.title}
                         description={lesson.description}
                         className="lesson-card"
