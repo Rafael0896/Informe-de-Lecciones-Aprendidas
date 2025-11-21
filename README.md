@@ -125,7 +125,7 @@ npm run preview
 ```
 https://github.com/Rafael0896/Informe-de-Lecciones-Aprendidas
 ```
-###link de la página desplegada
+### link de la página desplegada
 ```
 https://informe-de-lecciones-aprendidas.vercel.app/
 ```
